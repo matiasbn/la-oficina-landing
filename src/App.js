@@ -7,7 +7,7 @@ function App() {
     <div className="linktree-container">
       <img src={logo} alt="Logo" className="profile-image" />
       <p className="description-text">
-        Impulsando lo mejor del talento musical en Chile
+        Impulsando lo mejor del talento musical en Chile 🇨🇱
       </p>
       <div className="link-container">
         <a
