@@ -22,12 +22,12 @@ function App() {
           Fiesta de La Oficina
         </a>
         <a
-          href="https://youtube.com/@laoficina_music"
+          href="https://tiktok.com/@laoficina.music"
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
         >
-          YouTube
+          Tik Tok
         </a>
         <a
           href="https://instagram.com/laoficina.music"
@@ -36,6 +36,14 @@ function App() {
           className="link-button"
         >
           Instagram
+        </a>
+        <a
+          href="https://youtube.com/@laoficina_music"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-button"
+        >
+          YouTube
         </a>
         <a
           href="https://twitch.tv/laoficinamusic"
