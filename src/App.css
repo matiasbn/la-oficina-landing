@@ -14,7 +14,7 @@ body {
 /* Main container for the page */
 .linktree-container {
   text-align: center;
-  width: 100%; /* Full width */
+  width: 90%; /* Use a percentage for responsiveness */
   max-width: 400px; /* Constrain the max width */
   background: #222; /* Dark grey container */
   padding: 20px;
@@ -66,4 +66,21 @@ body {
 .link-button:hover {
   background-color: #888; /* Darker grey on hover */
   transform: translateY(-2px); /* Slight hover effect */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 400px) {
+  .profile-image {
+    width: 100px; /* Adjust logo size on smaller screens */
+    height: 100px;
+  }
+
+  .description-text {
+    font-size: 12px; /* Smaller font for description on smaller screens */
+  }
+
+  .link-button {
+    font-size: 14px; /* Smaller font for buttons on smaller screens */
+    padding: 12px; /* Less padding on buttons */
+  }
 }
