@@ -11,7 +11,7 @@ function App() {
       </p>
       <div className="link-container">
         <a
-          href="https://laoficina.evently.com/concrete-jungle-vol-1"
+          href="https://laoficina.evently.cl/concrete-jungle-vol-1"
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
