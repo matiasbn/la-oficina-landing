@@ -53,7 +53,14 @@ function App() {
         >
           Twitch
         </a>
-
+        <a
+          href="https://soundcloud.com/laoficina_music"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-button"
+        >
+          SoundCloud
+        </a>
         <a
           href="https://podcasters.spotify.com/pod/show/la-oficina-music"
           target="_blank"
