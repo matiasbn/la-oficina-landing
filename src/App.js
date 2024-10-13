@@ -22,6 +22,14 @@ function App() {
           Fiesta de La Oficina
         </a>
         <a
+          href="https://docs.google.com/spreadsheets/d/1UXMq8TsTPNdkqb6PV1JOFQkmWyhkEFXH5RSqP_sMlak/edit?gid=0#gid=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-button"
+        >
+          Calendario
+        </a>
+        <a
           href="https://tiktok.com/@laoficina.music"
           target="_blank"
           rel="noopener noreferrer"
