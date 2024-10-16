@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import logo from "./la_oficina.jpg"; // Using the local logo image
+import logo from "./la_oficina.jpg"; // Usando la imagen local del logo
 
 function App() {
   return (
@@ -21,12 +21,8 @@ function App() {
           <br />
           Fiesta de La Oficina
         </a>
-        <a
-          href="https://docs.google.com/spreadsheets/d/1UXMq8TsTPNdkqb6PV1JOFQkmWyhkEFXH5RSqP_sMlak/edit?gid=0#gid=0"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link-button"
-        >
+        {/* Aquí se cambia el botón de Calendario para redirigir a la subpágina de calendario */}
+        <a href="/calendario" className="link-button">
           Calendario
         </a>
         <a

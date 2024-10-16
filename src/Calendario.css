@@ -1,0 +1,50 @@
+/* Calendario.css */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: grey;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid grey;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: grey;
+}
+
+td a {
+  color: white;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+/* Ancho mayor para la columna del día */
+th:first-child,
+td:first-child {
+  width: 25%; /* Ajusta el ancho de la columna del día */
+}
