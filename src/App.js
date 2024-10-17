@@ -6,15 +6,15 @@ import logo from "./la_oficina.jpg"; // Using the local logo image
 const trackButtonClick = (label, url) => {
   // Enviar evento a Google Analytics
   window.gtag("event", "click", {
-    event_category: "Button",
+    event_category: "Click en link",
     event_label: label,
-    value: 1,
+    value: url,
   });
 
   // Agregar un retraso de 300 ms antes de redirigir al enlace
   setTimeout(() => {
     window.open(url, "_blank");
-  }, 3000);
+  }, 300);
 };
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
       </p>
       <div className="link-container">
         <a
-          href="#"
+          href="https://laoficina.evently.cl/concrete-jungle-vol-1"
           className="link-button"
           onClick={() =>
             trackButtonClick(
