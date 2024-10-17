@@ -2,6 +2,15 @@ import React from "react";
 import "./App.css";
 import logo from "./la_oficina.jpg"; // Using the local logo image
 
+// Función para rastrear los eventos de clic
+const trackButtonClick = (label) => {
+  window.gtag("event", "click", {
+    event_category: "Button",
+    event_label: label,
+    value: 1,
+  });
+};
+
 function App() {
   return (
     <div className="linktree-container">
@@ -16,6 +25,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
+          onClick={() => trackButtonClick("Entradas Concrete Jungle Vol 1")}
         >
           Entradas Concrete Jungle Vol 1,
           <br />
@@ -26,6 +36,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
+          onClick={() => trackButtonClick("Calendario")}
         >
           Calendario
         </a>
@@ -34,6 +45,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
+          onClick={() => trackButtonClick("TikTok")}
         >
           Tik Tok
         </a>
@@ -42,6 +54,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
+          onClick={() => trackButtonClick("Instagram")}
         >
           Instagram
         </a>
@@ -50,6 +63,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
+          onClick={() => trackButtonClick("YouTube")}
         >
           YouTube
         </a>
@@ -58,6 +72,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
+          onClick={() => trackButtonClick("Twitch")}
         >
           Twitch
         </a>
@@ -66,6 +81,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
+          onClick={() => trackButtonClick("SoundCloud")}
         >
           SoundCloud
         </a>
@@ -74,6 +90,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="link-button"
+          onClick={() => trackButtonClick("Podcast")}
         >
           Otro día en La Oficina,
           <br />
