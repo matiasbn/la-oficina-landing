@@ -5,7 +5,7 @@ import logo from "./la_oficina.jpg"; // Using the local logo image
 // Función para rastrear los eventos de clic y agregar un delay
 const trackButtonClick = (label, url) => {
   // Enviar evento a Google Analytics
-  window.gtag("event", "click", {
+  window.gtag("event", label, {
     event_category: "Click en link",
     event_label: label,
     value: url,
@@ -27,7 +27,7 @@ function App() {
       </p>
       <div className="link-container">
         <a
-          href="https://laoficina.evently.cl/concrete-jungle-vol-1"
+          href="#"
           className="link-button"
           onClick={() =>
             trackButtonClick(
