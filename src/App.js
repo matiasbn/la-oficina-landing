@@ -45,6 +45,18 @@ function App() {
           className="link-button"
           onClick={() =>
             trackButtonClick(
+              "Formulario",
+              "https://docs.google.com/forms/d/1Kf3UiSQJ77DSq__osdeANVeugQzq2H2duKJQm0k_CCE/viewform?edit_requested=true"
+            )
+          }
+        >
+          Postula a La Oficina
+        </a>
+        <a
+          href="#"
+          className="link-button"
+          onClick={() =>
+            trackButtonClick(
               "Calendario",
               "https://teamup.com/ks9v1rtndmmhauqqme"
             )
