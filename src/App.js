@@ -46,7 +46,7 @@ function App() {
           onClick={() =>
             trackButtonClick(
               "Calendario",
-              "https://calendar.google.com/calendar/u/0?cid=Y2Y5NTVhYWVjMzc3OWFhZTg1Y2Y2YzE5ZDhiNDdlMzFjMjE0YmJhYjEzZDQ5Njc4MzZlYzk2YmRhNjU5OGE1N0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+              "https://teamup.com/ks9v1rtndmmhauqqme"
             )
           }
         >
