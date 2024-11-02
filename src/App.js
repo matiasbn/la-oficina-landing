@@ -46,7 +46,7 @@ function App() {
           onClick={() =>
             trackButtonClick(
               "Formulario",
-              "https://docs.google.com/forms/d/1Kf3UiSQJ77DSq__osdeANVeugQzq2H2duKJQm0k_CCE/viewform?edit_requested=true"
+              "https://www.instagram.com/p/DB4bxJPywcZ/"
             )
           }
         >
