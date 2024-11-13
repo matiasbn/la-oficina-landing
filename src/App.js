@@ -31,14 +31,14 @@ function App() {
           className="link-button"
           onClick={() =>
             trackButtonClick(
-              "Entradas Concrete Jungle Vol 1",
-              "https://laoficina.evently.cl/concrete-jungle-vol-1"
+              "Podcast",
+              "https://podcasters.spotify.com/pod/show/la-oficina-music"
             )
           }
         >
-          Entradas Concrete Jungle Vol 1,
+          Otro día en La Oficina,
           <br />
-          Fiesta de La Oficina
+          nuestro Podcast
         </a>
         <a
           href="#"
@@ -114,20 +114,6 @@ function App() {
           }
         >
           SoundCloud
-        </a>
-        <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick(
-              "Podcast",
-              "https://podcasters.spotify.com/pod/show/la-oficina-music"
-            )
-          }
-        >
-          Otro día en La Oficina,
-          <br />
-          nuestro Podcast
         </a>
       </div>
     </div>
