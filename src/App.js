@@ -57,27 +57,6 @@ function App() {
           className="link-button"
           onClick={() =>
             trackButtonClick(
-              "Calendario",
-              "https://teamup.com/ks9v1rtndmmhauqqme"
-            )
-          }
-        >
-          Calendario
-        </a>
-        <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick("TikTok", "https://tiktok.com/@laoficina.music")
-          }
-        >
-          Tik Tok
-        </a>
-        <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick(
               "Instagram",
               "https://instagram.com/laoficina.music"
             )
@@ -98,11 +77,32 @@ function App() {
           href="#"
           className="link-button"
           onClick={() =>
+            trackButtonClick(
+              "Calendario",
+              "https://teamup.com/ks9v1rtndmmhauqqme"
+            )
+          }
+        >
+          Calendario
+        </a>
+        <a
+          href="#"
+          className="link-button"
+          onClick={() =>
+            trackButtonClick("TikTok", "https://tiktok.com/@laoficina.music")
+          }
+        >
+          Tik Tok
+        </a>
+        {/* <a
+          href="#"
+          className="link-button"
+          onClick={() =>
             trackButtonClick("Twitch", "https://twitch.tv/laoficinamusic")
           }
         >
           Twitch
-        </a>
+        </a> */}
         <a
           href="#"
           className="link-button"
