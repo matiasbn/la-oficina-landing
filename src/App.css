@@ -53,7 +53,7 @@ body {
   width: 100%; /* Full width */
   max-width: 100%; /* Prevent overflow beyond container */
   padding: 15px;
-  background-color: #666; /* Grey button */
+  background-color: #333; /* Grey button */
   color: #fff;
   text-decoration: none;
   font-size: 16px;
@@ -83,4 +83,15 @@ body {
     font-size: 14px; /* Smaller font for buttons on smaller screens */
     padding: 12px; /* Less padding on buttons */
   }
+}
+
+.dark-button {
+  background-color: #666; /* Gris oscuro */
+  color: #fff; /* Texto blanco para contraste */
+  border: none;
+  font-weight: bold; /* Opcional: Elimina bordes */
+}
+
+.dark-button:hover {
+  background-color: #444; /* Un gris más claro al pasar el cursor */
 }

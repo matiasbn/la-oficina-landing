@@ -28,6 +28,18 @@ function App() {
       <div className="link-container">
         <a
           href="#"
+          className="link-button dark-button"
+          onClick={() =>
+            trackButtonClick("DnB360", "https://laoficina.evently.cl/dnb-360")
+          }
+        >
+          Entradas
+          <br />
+          Drum and Bass <br />
+          360 edition
+        </a>
+        <a
+          href="#"
           className="link-button"
           onClick={() =>
             trackButtonClick(
@@ -39,18 +51,6 @@ function App() {
           Otro día en La Oficina,
           <br />
           nuestro Podcast
-        </a>
-        <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick(
-              "Formulario",
-              "https://laoficina.evently.cl/dnb-360"
-            )
-          }
-        >
-          Entradas Drum and Bass 360 edition
         </a>
         <a
           href="#"
@@ -90,6 +90,18 @@ function App() {
           className="link-button"
           onClick={() =>
             trackButtonClick(
+              "SoundCloud",
+              "https://soundcloud.com/laoficina_music"
+            )
+          }
+        >
+          SoundCloud
+        </a>
+        <a
+          href="#"
+          className="link-button"
+          onClick={() =>
+            trackButtonClick(
               "Calendario",
               "https://teamup.com/ks9v1rtndmmhauqqme"
             )
@@ -115,18 +127,6 @@ function App() {
         >
           Twitch
         </a> */}
-        <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick(
-              "SoundCloud",
-              "https://soundcloud.com/laoficina_music"
-            )
-          }
-        >
-          SoundCloud
-        </a>
       </div>
     </div>
   );
