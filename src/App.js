@@ -46,6 +46,18 @@ function App() {
           onClick={() =>
             trackButtonClick(
               "Formulario",
+              "https://laoficina.evently.cl/dnb-360"
+            )
+          }
+        >
+          Entradas Drum and Bass 360 edition
+        </a>
+        <a
+          href="#"
+          className="link-button"
+          onClick={() =>
+            trackButtonClick(
+              "Formulario",
               "https://www.instagram.com/p/DB4bxJPywcZ/"
             )
           }
