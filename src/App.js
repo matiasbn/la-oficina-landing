@@ -30,13 +30,15 @@ function App() {
           href="#"
           className="link-button dark-button"
           onClick={() =>
-            trackButtonClick("DnB360", "https://laoficina.evently.cl/dnb-360")
+            trackButtonClick(
+              "ListClubroom25012025",
+              "https://clubroom.check1n.cl/e/?I=clubroom%20&e=UAAT"
+            )
           }
         >
-          Entradas
+          Lista Trigga Fingaz
           <br />
-          Drum and Bass <br />
-          360 edition
+          ClubRoom 25/01/2025
         </a>
         <a
           href="#"
