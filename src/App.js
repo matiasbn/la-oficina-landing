@@ -28,20 +28,6 @@ function App() {
       <div className="link-container">
         <a
           href="#"
-          className="link-button dark-button"
-          onClick={() =>
-            trackButtonClick(
-              "ListClubroom25012025",
-              "https://clubroom.check1n.cl/e/?I=clubroom%20&e=UAAT"
-            )
-          }
-        >
-          Lista Trigga Fingaz
-          <br />
-          ClubRoom 25/01/2025
-        </a>
-        <a
-          href="#"
           className="link-button"
           onClick={() =>
             trackButtonClick(
