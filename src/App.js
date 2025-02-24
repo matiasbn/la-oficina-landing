@@ -38,7 +38,7 @@ function App() {
         >
           Otro día en La Oficina
           <br />
-          en YouTube
+          en YouTube Live
         </a>
         <a
           href="#"
