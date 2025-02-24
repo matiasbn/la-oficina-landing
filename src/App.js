@@ -28,21 +28,21 @@ function App() {
       <div className="link-container">
         <a
           href="#"
-          className="link-button"
+          className="link-button dark-button"
           onClick={() =>
             trackButtonClick(
-              "Podcast",
-              "https://podcasters.spotify.com/pod/show/la-oficina-music"
+              "StreamsYouTube",
+              "https://www.youtube.com/@laoficina_music/streams"
             )
           }
         >
-          Otro día en La Oficina,
+          Otro día en La Oficina
           <br />
-          nuestro Podcast
+          en YouTube
         </a>
         <a
           href="#"
-          className="link-button"
+          className="link-button font-bold"
           onClick={() =>
             trackButtonClick(
               "Formulario",
@@ -51,6 +51,18 @@ function App() {
           }
         >
           Postula a La Oficina
+        </a>
+        <a
+          href="#"
+          className="link-button"
+          onClick={() =>
+            trackButtonClick(
+              "Podcast",
+              "https://podcasters.spotify.com/pod/show/la-oficina-music"
+            )
+          }
+        >
+          Podcast en Spotify
         </a>
         <a
           href="#"

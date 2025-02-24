@@ -95,3 +95,7 @@ body {
 .dark-button:hover {
   background-color: #444; /* Un gris más claro al pasar el cursor */
 }
+
+.font-bold {
+  font-weight: bold; /* Opcional: Elimina bordes */
+}
