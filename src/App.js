@@ -32,6 +32,20 @@ function App() {
           onClick={() =>
             trackButtonClick(
               "StreamsYouTube",
+              "https://www.youtube.com/live/QSQRH2MiAUg"
+            )
+          }
+        >
+          Trigga Fingaz @ ClubRoom
+          <br />
+          en YouTube Live
+        </a>
+        <a
+          href="#"
+          className="link-button dark-button"
+          onClick={() =>
+            trackButtonClick(
+              "StreamsYouTube",
               "https://www.youtube.com/@laoficina_music/streams"
             )
           }
