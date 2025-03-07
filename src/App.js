@@ -30,10 +30,7 @@ function App() {
           href="#"
           className="link-button dark-button"
           onClick={() =>
-            trackButtonClick(
-              "StreamsYouTube",
-              "https://www.youtube.com/live/QSQRH2MiAUg"
-            )
+            trackButtonClick("StreamsYouTube", "https://yt.openinapp.co/31d6q")
           }
         >
           Trigga Fingaz @ ClubRoom
