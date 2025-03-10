@@ -30,16 +30,16 @@ function App() {
           href="#"
           className="link-button dark-button"
           onClick={() =>
-            trackButtonClick("StreamsYouTube", "https://yt.openinapp.co/31d6q")
+            trackButtonClick("StreamsYouTube", "https://yt.openinapp.co/yo8kg")
           }
         >
-          Trigga Fingaz @ ClubRoom
+          Dominique Tijoux, Capítulo 23
           <br />
-          en YouTube Live
+          Otro día en La Oficina (Youtube Live)
         </a>
         <a
           href="#"
-          className="link-button dark-button"
+          className="link-button"
           onClick={() =>
             trackButtonClick(
               "StreamsYouTube",
