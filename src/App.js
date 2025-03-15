@@ -30,10 +30,10 @@ function App() {
           href="#"
           className="link-button dark-button"
           onClick={() =>
-            trackButtonClick("StreamsYouTube", "https://yt.openinapp.co/yo8kg")
+            trackButtonClick("StreamsYouTube", "https://yt.openinapp.co/5jka3")
           }
         >
-          Dominique Tijoux, Capítulo 23
+          Erco, Capítulo 24
           <br />
           Otro día en La Oficina (Youtube Live)
         </a>
