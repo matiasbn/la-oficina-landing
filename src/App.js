@@ -30,10 +30,13 @@ function App() {
           href="#"
           className="link-button dark-button"
           onClick={() =>
-            trackButtonClick("StreamsYouTube", "https://yt.openinapp.co/5jka3")
+            trackButtonClick(
+              "StreamsYouTube",
+              "https://www.youtube.com/live/-_EAjgcXytY"
+            )
           }
         >
-          Erco, Capítulo 24
+          Playroots, Capítulo 25
           <br />
           Otro día en La Oficina (Youtube Live)
         </a>
