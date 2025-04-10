@@ -32,7 +32,7 @@ function App() {
           onClick={() =>
             trackButtonClick(
               "StreamsYouTube",
-              "https://www.youtube.com/live/-_EAjgcXytY"
+              "https://yt.openinapp.co/ut0ib0u"
             )
           }
         >
