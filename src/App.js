@@ -36,9 +36,9 @@ function App() {
             )
           }
         >
-          Nahum Nieves, Capítulo 0
+          Brenak, Capítulo 27
           <br />
-          Formato nuevo (Youtube Live)
+          Otro día en La Oficina (YouTube Live)
         </a>
         <a
           href="#"
