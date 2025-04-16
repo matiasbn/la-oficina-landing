@@ -30,10 +30,7 @@ function App() {
           href="#"
           className="link-button dark-button"
           onClick={() =>
-            trackButtonClick(
-              "StreamsYouTube",
-              "https://www.youtube.com/watch?v=vvSAue-u0lo"
-            )
+            trackButtonClick("StreamsYouTube", "https://yt.openinapp.co/bis1x")
           }
         >
           Brenak, Capítulo 27
