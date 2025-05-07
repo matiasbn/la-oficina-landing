@@ -32,20 +32,6 @@ function App() {
           onClick={() =>
             trackButtonClick(
               "StreamsYouTube",
-              "https://www.youtube.com/watch?v=wof35MQLw2k"
-            )
-          }
-        >
-          Brenak, Capítulo 27
-          <br />
-          Otro día en La Oficina (YouTube Live)
-        </a>
-        <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick(
-              "StreamsYouTube",
               "https://www.youtube.com/@laoficina_music/streams"
             )
           }
