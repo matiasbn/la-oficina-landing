@@ -36,7 +36,7 @@ function App() {
             )
           }
         >
-          Otro día en La Oficina
+          HOla Nico
           <br />
           en YouTube Live
         </a>
