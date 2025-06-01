@@ -42,27 +42,12 @@ function App() {
         </a>
         <a
           href="#"
-          className="link-button font-bold"
-          onClick={() =>
-            trackButtonClick(
-              "Formulario",
-              "https://www.instagram.com/p/DB4bxJPywcZ/"
-            )
-          }
-        >
-          Postula a La Oficina
-        </a>
-        <a
-          href="#"
           className="link-button"
           onClick={() =>
-            trackButtonClick(
-              "Podcast",
-              "https://podcasters.spotify.com/pod/show/la-oficina-music"
-            )
+            trackButtonClick("TikTok", "https://tiktok.com/@laoficina.music")
           }
         >
-          Podcast en Spotify
+          TikTok
         </a>
         <a
           href="#"
@@ -97,36 +82,6 @@ function App() {
         >
           SoundCloud
         </a>
-        <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick(
-              "Calendario",
-              "https://teamup.com/ks9v1rtndmmhauqqme"
-            )
-          }
-        >
-          Calendario
-        </a>
-        <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick("TikTok", "https://tiktok.com/@laoficina.music")
-          }
-        >
-          Tik Tok
-        </a>
-        {/* <a
-          href="#"
-          className="link-button"
-          onClick={() =>
-            trackButtonClick("Twitch", "https://twitch.tv/laoficinamusic")
-          }
-        >
-          Twitch
-        </a> */}
       </div>
     </div>
   );
